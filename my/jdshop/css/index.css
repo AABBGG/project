@@ -1,0 +1,118 @@
+section.banner-box{width: 1534px; height: 441px; background: #05061a; }
+			section.banner-box .banner{margin-left: 354px;}
+			.banner-box .banner-left{width: 190px; height: 441px; background: #DDDDDD; float: left; margin-left: 164px;}
+			.banner-box .banner-left ul li{padding: 12px 0; cursor: pointer;}
+			.banner-box .banner-left ul li:hover{opacity: 0.6;}
+			.banner-box .banner-left ul li:nth-of-type(even){background: #cbcbce;}
+			.banner-box .banner-left ul li img{margin-left: 20px; margin-right: 16px;}
+			/******banner-left*****/			
+			.carousel{position: relative;width: 800px;height: 441px;overflow: hidden;}
+			.carousel .img-ct{position: absolute;height: 200px;width: 4000px;}
+			.carousel .img-ct>li{float: left;}
+			.carousel .img-ct img{width: 800px;height: 441px;}
+			.carousel .img-ct img:hover{opacity: 1;}
+			.carousel .btn{position: absolute;top: 50%;margin-top: -15px;width: 30px;height: 30px;text-align: center;
+							line-height: 30px;font-size: 18px;text-decoration: none;color: #fff;border-radius: 50%;
+							background-color: #333;opacity: 0.6;display: block;}
+			.carousel .btn-pre{left: 10px;}
+			.carousel .btn-next{right: 10px;}
+			.carousel .bullet-ct{position: absolute;bottom: 20px;left: 0;right: 0;text-align: center;}
+			.carousel .bullet{display: inline-block;}
+			.carousel .bullet>li{display:inline-block;width:20px;height:6px;border-radius:3px;background-color:#fff;margin:0 5px;}
+			.carousel .bullet .active{background-color: #666;}
+			/*******轮播图banner*****/
+			section.banner-box .banner-right{float: right; width:200px; margin-top: -421px; margin-right: 180px; height: 341px; cursor: pointer;}
+			/******banner-right*****/
+			section.three-card{margin-top: 10px; width: 1534px; }
+			section.three-card .card-cont.card-cont-1{margin-left: 164px;}
+			section.three-card .card-cont{width:390px; height:150px;  margin-left: 10px; float: left; cursor: pointer;}
+			section.three-card .card-cont:hover{ box-shadow:0 0 20px 2px gray ; margin-top: 5px;}
+			section.three-card .card-cont .card-left{float: left; width: 230px; height: 140px; margin-left: 20px;}
+			section.three-card .card-cont .card-right{float: left; margin-top: 20px;}
+			section.three-card .card-cont .card-right img{width: 126px; height: 94px;}
+			/*******轮播图下面的三张卡片**********/
+			section.house-hold{ margin-top: 180px; width: 1534px; height: 539px; }
+			section.house-hold .hold-left{width: 238px; height: 539px; /*border:blue 1px solid ;*/ float: left; margin-left: 166px; }
+			section.house-hold .hold-left .hold-left-img{height: 60px;background: white; position: relative;}
+			section.house-hold .hold-left .hold-left-img:hover{background: lightgreen;}
+			section.house-hold .hold-left .hold-left-img img{margin-left: 50px; margin-top: 20px;}
+			section.house-hold .hold-left .hold-left-txt{font-size: 20px; color: #333333; font-weight: bold; position: absolute; right: 60px; top: 18px;}
+			section.house-hold .hold-left img:nth-of-type(1){margin-bottom: 8px;}
+			/*******家用电器左边的部分************/
+			section.house-hold .hold-center{width: 718px; height: 539px;float: left; }
+			section.house-hold .hold-center .tab{width:718px;height:539px;}
+			section.house-hold .hold-center .tab-menu{height:60px;width:718px;background: white; border-bottom:1px gainsboro solid; cursor: pointer;}
+			section.house-hold .hold-center .tab-menu li{display:block;;float:left;padding: 18px 16px;}
+			section.house-hold .hold-center .tab-menu li:nth-of-type(1){border-left:1px black solid  ;}
+			section.house-hold .hold-center .tab-box .tab-box-one{width:717px;height:480px;display:none; background: white;}			
+			section.house-hold .hold-center .tab-box .tab-box-one:first-Child{display:block;} 
+			section.house-hold .hold-center .tab-box .tab-box-one ul li img{width: 150px; height: 150px;padding: 10px 42px; }
+			section.house-hold .hold-center .tab-box .tab-box-one ul li:hover{opacity: 0.7; cursor: pointer;}
+			section.house-hold .hold-center .tab-box .tab-box-one ul li:nth-of-type(2){border:1px gainsboro solid; border-top: none; border-bottom: none;}
+			section.house-hold .hold-center .tab-box .tab-box-one ul li span{display: block; font-size: 12px; padding: 0 32.4px;}
+			section.house-hold .hold-center .tab-box .tab-box-one ul li span:nth-of-type(3){color: red; font-size: 16px; margin-left: 40px; padding-bottom: 14px;}
+			section.house-hold .hold-center .tab-box .tab-box-one ul:nth-of-type(3) li{border-top:1px gainsboro solid;}
+			section.house-hold .hold-center .tab-box .tab-box-one ul li{float: left;}
+			.change{background:#ffc66e;} 
+			/*******家用电器中间的部分*******/
+			section.house-hold .hold-right{width: 230px; height: 539px; border-left:gainsboro 1px solid;  float: left; background: white; }
+			section.house-hold .hold-right .right-top{height: 60px;background: white; border-bottom:gainsboro 1px solid;}
+			section.house-hold .hold-right .right-img-txt img{ width: 80px; height: 80px; margin-left: 34px;cursor: pointer;}			
+			section.house-hold .hold-right .right-top span{font-size: 20px; cursor: pointer; color: #333333; background: white; display: block;padding-top: 16px;  font-weight: bold; margin-left: 14px; }
+			section.house-hold .hold-right .right-img-txt{border-bottom: 1px gray solid; position: relative;}
+			section.house-hold .hold-right .right-img-txt .right-img-num{position: absolute;cursor: pointer; top: 33px; left: 14px; color: white;font-size: 12px; background: #ff2e2e;border-radius: 50%; padding: 0 2px;}
+			section.house-hold .hold-right .right-img-txt .right-img-right-txt{position: absolute; cursor: pointer; font-size: 12px; top: 16px; right: 14px;}
+			section.house-hold .hold-right .right-img-txt .right-img-right-txt ul li:nth-of-type(3){font-size: 14px; color: #FC3E3E;}
+			section.house-hold .hold-right .right-card{position: relative;}
+			section.house-hold .hold-right .right-card ul li{border-top:1px gray solid ;padding: 21px 0;}
+			section.house-hold .hold-right .right-card ul li:hover{background: lightgrey; cursor: pointer;}
+			section.house-hold .hold-right .right-card ul li span{display: block; font-size: 12px; margin-left: 30px; }
+			section.house-hold .hold-right .right-card ul li span:nth-of-type(3){font-size: 14px; color: #FC3E3E;}
+			section.house-hold .hold-right .right-card ul li span.right-card-num{position: absolute; color: white; background: dimgray; left: -16px; border-radius: 50%; padding:0 2px ;}
+			/*****家用电器右边的*****/
+			section.phone-bracket{height: 107px; width: 1534px;margin-top: 30px;}
+			section.phone-bracket .phone-bracket-img{margin-left: 166px;}
+			section.phone-bracket .phone-bracket-img img:hover{box-shadow:0 0 20px 2px gray ; cursor: pointer;}
+			section.phone-bracket .phone-bracket-img img{height: 106px;width:1185px;}
+			/*******一张图片：手机支架*****/
+			
+			section.computer-hold{ margin-top: 180px; width: 1534px; height: 539px; }
+			section.computer-hold .hold-left{width: 238px; height: 539px; /*border:blue 1px solid ;*/ float: left; margin-left: 166px; }
+			section.computer-hold .hold-left .hold-left-img{height: 60px;background: white; position: relative;}
+			section.computer-hold .hold-left .hold-left-img:hover{background: lightgreen;}
+			section.computer-hold .hold-left .hold-left-img img{margin-left: 50px; margin-top: 20px;}
+			section.computer-hold .hold-left .hold-left-txt{font-size: 20px; color: #333333; font-weight: bold; position: absolute; right: 60px; top: 18px;}
+			section.computer-hold .hold-left img:nth-of-type(1){margin-bottom: 8px;}
+			/*******电脑办公左边的部分************/
+			section.computer-hold .hold-center{width: 718px; height: 539px;float: left; }
+			section.computer-hold .hold-center .tab{width:718px;height:539px;}
+			section.computer-hold .hold-center .tab-menu-two{height:60px;width:718px;background: white; border-bottom:1px gainsboro solid; cursor: pointer;}
+			section.computer-hold .hold-center .tab-menu-two li{display:block;;float:left;padding: 18px 16px;}
+			section.computer-hold .hold-center .tab-menu-two li:nth-of-type(1){border-left:1px black solid  ;}
+			section.computer-hold .hold-center .tab-box-two .tab-box-one{width:717px;height:480px;display:none; background: white;}			
+			section.computer-hold .hold-center .tab-box-two .tab-box-one:first-Child{display:block;} 
+			section.computer-hold .hold-center .tab-box-two .tab-box-one ul li img{width: 150px; height: 150px;padding: 10px 42px; }
+			section.computer-hold .hold-center .tab-box-two .tab-box-one ul li:hover{opacity: 0.7; cursor: pointer;}
+			section.computer-hold .hold-center .tab-box-two .tab-box-one ul li:nth-of-type(2){border:1px gainsboro solid; border-top: none; border-bottom: none;}
+			section.computer-hold .hold-center .tab-box-two .tab-box-one ul li span{display: block; font-size: 12px; padding: 0 32.4px;}
+			section.computer-hold .hold-center .tab-box-two .tab-box-one ul li span:nth-of-type(3){color: red; font-size: 16px; margin-left: 40px; padding-bottom: 14px;}
+			section.computer-hold .hold-center .tab-box-two .tab-box-one ul:nth-of-type(3) li{border-top:1px gainsboro solid;}
+			section.computer-hold .hold-center .tab-box-two .tab-box-one ul li{float: left;}
+			.change{background:#ffc66e;} 
+			/*******电脑办公中间的部分*******/
+			section.computer-hold{margin-top: 30px;}
+			section.computer-hold .hold-right{width: 230px; height: 539px; border-left:gainsboro 1px solid;  float: left; background: white; }
+			section.computer-hold .hold-right .right-top{height: 60px;background: white; border-bottom:gainsboro 1px solid;}
+			section.computer-hold .hold-right .right-img-txt img{ width: 80px; height: 80px; margin-left: 34px;cursor: pointer;}			
+			section.computer-hold .hold-right .right-top span{font-size: 20px; cursor: pointer; color: #333333; background: white; display: block;padding-top: 16px;  font-weight: bold; margin-left: 14px; }
+			section.computer-hold .hold-right .right-img-txt{border-bottom: 1px gray solid; position: relative;}
+			section.computer-hold .hold-right .right-img-txt .right-img-num{position: absolute;cursor: pointer; top: 33px; left: 14px; color: white;font-size: 12px; background: #ff2e2e;border-radius: 50%; padding: 0 2px;}
+			section.computer-hold .hold-right .right-img-txt .right-img-right-txt{position: absolute; cursor: pointer; font-size: 12px; top: 16px; right: 14px;}
+			section.computer-hold .hold-right .right-img-txt .right-img-right-txt ul li:nth-of-type(3){font-size: 14px; color: #FC3E3E;}
+			section.computer-hold .hold-right .right-card{position: relative;}
+			section.computer-hold .hold-right .right-card ul li{border-top:1px gray solid ;padding: 21px 0;}
+			section.computer-hold .hold-right .right-card ul li:hover{background: lightgrey; cursor: pointer;}
+			section.computer-hold .hold-right .right-card ul li span{display: block; font-size: 12px; margin-left: 30px; }
+			section.computer-hold .hold-right .right-card ul li span:nth-of-type(3){font-size: 14px; color: #FC3E3E;}
+			section.computer-hold .hold-right .right-card ul li span.right-card-num{position: absolute; color: white; background: dimgray; left: -16px; border-radius: 50%; padding:0 2px ;}
+			/*****电脑办公右边的*****/

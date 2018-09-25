@@ -1,0 +1,69 @@
+body{padding: 0; margin: 0; background: #eeeeee;}
+			ul,li{padding: 0; margin: 0;list-style: none;}
+			a{text-decoration: none; color: black; margin: 0; padding: 0;}
+			img:hover{ opacity: 0.7;}
+			h4{ font-size: 20px; font-weight: normal; margin: 0 ; padding: 0;}
+			header .header-cont{background: #dddddd; width: 1534px; height: 40px;}
+			header .header-cont .header-cont-left{float: left; height: 40px; margin-left: 165px;}
+			header .header-cont .header-cont-left img{margin-right: 6px;}
+			header .header-cont .header-cont-left .header-txt{font-size: 14px;color: #333333;line-height: 40px;}
+			header .header-cont .header-cont-right{float: right; height: 40px;}
+			header .header-cont .header-cont-right .header-right-lefttxt{float: left;  width: 174px; height: 40px; line-height: 40px;}
+			header .header-cont .header-cont-right .header-right-lefttxt .login{color: #666666; cursor: pointer;}
+			header .header-cont .header-cont-right .header-right-lefttxt .free{margin-left: 14px;cursor: pointer; color: #fc3e3e; font-size: 14px;}
+			header .header-cont .header-cont-right .header-right-righttxt{float: right; height: 40px;margin-right: 178px;}
+			header .header-cont .header-cont-right .header-right-righttxt ul li{ float: left; color:#666666 ; padding: 0 10px; line-height: 40px; }
+			header .header-cont .header-cont-right .header-right-righttxt ul li:hover{background: white; cursor: pointer;}
+			header .header-cont .header-cont-right .header-right-righttxt .drop-nav{position:absolute; z-index:6;background: white; padding: 0 17px;right: 163px;}
+			header .header-cont .header-cont-right .header-right-righttxt .drop-nav ul li{margin-left: 35px;}
+			header .header-cont .header-cont-right .header-right-righttxt ul li  div{display: none;}
+			header .header-cont .header-cont-right .header-right-righttxt ul li  div span:hover{color: red;}
+			/****顶部****/
+			header.header-seach{background: #eeeeee; width: 1534px; height: 120px;}
+			header .logo{width: 200px; height: 60px; float: left; margin-left: 180px; margin-top: 38px;}
+			header .seach{width:680px;  float: left; margin-left: 94px; margin-top: 40px; position: relative; outline: none;}
+			header .seach img{position: absolute; z-index: 2; left: 8px; top: 16px;}
+			header .seach span{position: absolute;right: 70px;background: #FC3E3E; color: white; padding: 11px 26px; border-radius:6px ;}
+			header .seach ul li{float: left; color: #999999; font-size: 14px;margin-right: 20px; margin-top: 6px; cursor: pointer;}
+			header .seach .sea-txt{height: 40px; width: 575px; border:1px red solid ; border-radius:6px ;}
+			header .my-car{width: 200px;  float: left; margin-top: 52px; position: relative;}			
+			header .my-car .car-txt{padding: 10px 40px;border: 1px darkgray solid; background: white; font-size: 16px; color: #FC3E3E; border-radius: 6px;}
+			header .my-car .car-txt:hover{background: lemonchiffon; cursor: pointer;}
+			header .my-car .num-zero{background: red; border-radius: 8px; color: white; padding: 0 4px; cursor: pointer; font-size: 12px; position: absolute; right: 42px; top: -4px;}
+			/******logo 搜索框  购物车*****/						
+			.nav{width: 1534px;height: 41px;border:1px solid ;background: #666666; position: relative;}
+			.nav-menu{width: 1080px;height: 40px;margin: auto;position: relative; z-index: 5; left: 110px;}
+			.nav-menu li{list-style: none;float: left;position: relative;z-index: 5;}
+			.nav-menu li a{text-decoration: none;color: white;font-size: 18px;line-height: 40px;padding: 0 26px;margin-right: 2px;}
+			.slider{width: 50px;height: 40px;background: #FC3E3E;position: absolute;top: 0;left: 18px;}
+			.all-kind{left: 162px; position: absolute; font-size: 22px; color: white; cursor: pointer; background: #333333; padding: 6px 20px;}
+			/******nav 导航 以上一样  *****/
+			
+			section.custom-infor{width: 1534px; height: 342px; background: white; border-top:1px gainsboro solid ; margin-top: 60px; position: relative;}
+			section.custom-infor .custom-good ul li{float: left; border-right:1px lightgray solid ; width: 220px;padding: 10px  40px 10px 0; text-align: center;margin-left: 30px; margin-top: 16px;}
+			section.custom-infor .custom-good ul li:nth-of-type(1){margin-left: 210px;}
+			section.custom-infor .custom-good ul li:nth-of-type(4){border: none;}
+			section.custom-infor .custom-good ul li span{display: block; float: right; font-size: 20px; color: #333333; margin-top: 6px; cursor: pointer;}
+			section.custom-infor .custom-tech{border-top: 1px lightgray solid; width: 1175px; height: 180px; margin-top: 90px; margin-left: 170px;}
+			section.custom-infor .custom-tech ul li{float: left; margin-right: 90px;}
+			section.custom-infor .custom-tech ul li h4{margin-top:20px ;}
+			section.custom-infor .custom-tech ul li span{display: block; color: #666666;}
+			section.custom-infor .custom-tech ul li span:hover{color: #FC3E3E; cursor: pointer;}
+			section.custom-infor .custom-tech ul li span:nth-of-type(1){margin-top: 10px;}
+			section.custom-infor .custom-img{position: absolute; right: 270px; bottom: 30px;}
+			section.custom-infor .contect{margin-left: 180px;}
+			section.custom-infor .contect ul li{float: left; font-size: 18px; color: #666666; cursor: pointer;}
+			section.custom-infor .contect ul li:nth-of-type(1){color: #333333;}
+			section.custom-infor .contect ul li:nth-of-type(2){margin: 0 60px 0 16px;}
+			/******店铺诚信  以及  新手注册********/
+			footer.footer .footer-box1{ width: 1535px;height: 60px; background: #666666; position: relative;}
+			footer.footer .footer-box1 .footer-box-ul ul{margin-left: 540px;}
+			footer.footer .footer-box1 .footer-box-ul ul li{float: left; cursor: pointer; font-size: 12px; color: #fefefefe;border-right:1px white solid ; padding: 4px 14px 0 6px; margin-top: 10px; }
+			footer.footer .footer-box1 .footer-box-ul ul li:nth-of-type(6){border: none;}
+			footer.footer .footer-box1 .footer-txt{position: absolute; left: 450px; top: 30px;}
+			footer.footer .footer-box1 .footer-txt span{ font-size: 12px; color:#fefefefe ; cursor: pointer;}
+			/*****倒数第二个footer****/
+			footer.bottom-footer{width: 1535px; height: 40px; background: #333333;}
+			footer.bottom-footer ul li{float: left; margin-top: 8px;margin-left: 14px;}
+			footer.bottom-footer ul li:nth-of-type(1){margin-left: 450px;}
+			footer.bottom-footer ul li span{font-size: 11px; color: #fefefe;}

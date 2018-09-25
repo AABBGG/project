@@ -1,0 +1,49 @@
+nav.schedule ul li{ float: left; margin-left: -20px; margin-top: 20px;position: relative;  }
+			nav.schedule ul li:nth-of-type(1){margin-left: 170px; }			
+			nav.schedule ul li span{position: absolute; color: #FFFACD; margin-left: 20px; padding-top: 8px;}
+			nav.schedule ul li span img{margin: 0 10px;}
+			nav.schedule ul li:nth-of-type(2) span{margin-left: 40px;}
+			nav.schedule ul li:nth-of-type(3) span{margin-left: 60px; color:grey ;}
+			/*****流程****/
+			section.people-new{/*border:1px red solid ;*/ width: 1150px; height: 160px; background: white; margin-top: 100px; margin-left: 170px;}
+			section.people-new .people-one ul li:nth-of-type(1){font-weight: bold;}
+			section.people-new .people-one ul li:nth-of-type(2){ margin-left: 1000px; color: dodgerblue;}
+			section.people-new .people-list{ border-top:1px lightgrey solid ; height: 52px;}
+			section.people-new .people-two ul li{float: left; line-height: 52px; margin-left: 50px; }
+			section.people-new .people-two ul li:nth-of-type(2){margin-left: 600px;}
+			section.people-new .people-two ul li span{margin-left: 10px;}
+			/****收件人的信息****/
+			section.ticket-infor{border: 1px white solid; padding-left: 20px; width:  1125px; height: 140px; background: white; margin-left: 170px; margin-top: 30px;}
+		    section.ticket-infor h5 span{font-weight: normal; color: darkgray;}		    
+			section.ticket-infor p span{color: dodgerblue; margin-left: 10px;}
+			section.ticket-infor p:nth-of-type(2){color: #FC3E3E;}
+			/*****发票信息***/
+			section.ticket-list{width: 1150px; height: 860px; margin-top: 30px; background: white; /*border:1px red solid ;*/ margin-left: 170px;}
+			section.ticket-list .list-one{height: 50px; /*border:1px red solid ;*/}
+			section.ticket-list .list-one ul li{float: left; border-bottom:2px gainsboro solid ; width:156px ;height: 50px; line-height: 50px; text-align: center;}
+			section.ticket-list .list-one ul li:nth-of-type(2){width: 340px;}
+			
+			section.ticket-list .list-one.list-two {height: 80px; }			
+			section.ticket-list .list-one.list-two ul li{height: 80px; line-height: 80px; font-size: 13px;}
+			section.ticket-list .list-one.list-two ul li:nth-of-type(6){color: #FC3E3E; font-size: 16px;}
+			section.ticket-list .list-one.list-two ul li img{margin-top: 10px;}
+			
+			section.ticket-list p{margin-left: 50px; color: darkgray;margin-bottom: 24px;}
+			section.ticket-list p input{border:1px gainsboro solid; }
+			section.ticket-list p button{border: none; outline: none; background: #FC3E3E; color: white; cursor: pointer;}
+			section.ticket-list p span{color: #FC3E3E;}
+			section.ticket-list p:nth-of-type(2){margin: -10px;margin-left: 50px; }
+			section.ticket-list p:nth-of-type(4) input{width: 600px;}
+			section.ticket-list .list-money{border-bottom: 2px gainsboro solid; height: 150px;}
+			section.ticket-list .list-money ul li{height: 150px; width: 166px;  float: left;}
+			section.ticket-list .list-money ul li span{display: block; text-align: right; margin-top: 6px;}
+			section.ticket-list .list-money ul li:nth-of-type(1){width: 800px;}
+			section.ticket-list .out-money{height: 100px; margin-top: 20px;}
+			section.ticket-list .out-money ul li{height: 100px; width: 210px;  float: left; }
+			section.ticket-list .out-money ul li:nth-of-type(1){width: 700px;}
+			section.ticket-list .out-money ul li:nth-of-type(2) span b{color: #FC3E3E; font-size: 22px;}
+			
+			section.ticket-list .out-money ul li span{display: block;text-align: right;}
+			section.ticket-list .out-money ul li .send{display: inline-block; cursor: pointer; border-radius: 6px; margin-left: 90px; margin-top: 10px; padding: 10px 20px; color: white; background: #FC3E3E;}
+			section.ticket-list .out-money ul li .people{display: inline; font-size:12px ; color: darkgrey;}
+			/******商品清单*****/

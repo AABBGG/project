@@ -1,0 +1,93 @@
+.banner{
+    &.container{
+        padding: 0px;
+    }
+    margin: 0 auto;
+    .item{      
+       img{
+           margin: 0 auto;           
+           width: 1200px;
+           overflow: hidden;
+       }
+    }
+}
+
+.infor{
+    .row{
+        margin: 0 auto;
+        div.col-md-4:nth-of-type(1), div.col-md-4:nth-of-type(2){background: none;}
+        div.col-md-4{
+            position: relative;
+            height: auto;
+            background: url(../img/st.jpg) no-repeat;
+            background-position: 6px 50px;
+            span.mo{
+               color: gray;
+               display: block;
+               position: absolute;
+               right: 0;
+               top: 14px;
+            }
+            a{
+                color: rgb(71, 80, 95);
+                font-size:18px;
+                font-weight: bold;
+            }
+            .author{
+                color: #aeaeae;
+                font-size: 12px;
+            }
+            .news{
+                font-size: 12px;
+            }
+            p{
+                position: relative;
+                img{
+                    text-align: center;
+                }
+            }
+            p .imgNews a{
+                background: gray;
+                opacity: .8;
+                position: absolute;
+                top: 156px;
+                color: gainsboro;
+                padding: 1px 16px;
+                font-size: 14px;
+            }
+            &.daily p{
+                font-size: 14px;
+                line-height: 26px;
+            }
+            &.daily p:hover{
+                color: red;
+            }
+        }
+    }
+    .logoList{
+        .col-lg-12{
+            img{
+                text-align: center;
+            }
+        }
+        .col-lg-4{
+            .caption{
+                h3{
+                    color: rgb(71, 80, 95);
+                    text-align: center;
+                }
+                p a{
+                    color: rgb(43, 43, 43) ;
+                    font-weight: normal; 
+                    text-align: center;  
+                } 
+                .decs{
+                    color: #828282;
+                    font-size: 12px;
+                }
+                
+            }
+        }
+    }
+}
+

@@ -1,0 +1,129 @@
+// 适配中等屏幕以上
+.boxMenu{
+    width: 100%;
+    background: #fbfbf9;
+    div.menu{
+        margin: 0 auto;
+        width: 1000px;
+        height: 80px;
+        .boxLeft{
+            width: 250px;
+            height: 78px;
+            float: left;
+            img{
+                width: 210px;
+                height: 40px;
+            margin-top:15px;
+            }
+        }
+        .boxRight{
+            width: 700px;
+            height: 78px;
+            float: right;
+            ul li:nth-of-type(7){
+                background: none;
+                span:nth-of-type(1){
+                    color:black;
+                }
+                span:nth-of-type(2){
+                    color: grey;    
+                }
+            }
+            ul li{
+                width: 70px;
+                height: 78px;
+                float: right;
+                background: url(../img/img2.jpg)no-repeat; background-position:right 0;
+                cursor: pointer;
+                span:nth-of-type(2){
+                    color: grey;    
+                }
+                &:hover{ 
+                    background: url(../img/img1.jpg);
+                    span:nth-of-type(1){
+                        color:white;
+                    }
+                    span:nth-of-type(2){
+                        color: grey;    
+                    }
+                }
+                text-align: center;
+                padding-top: 10px;
+            }
+            ul li:nth-of-type(6){
+                background: url(../img/img1.jpg);
+                span:nth-of-type(1){
+                    color:white;
+                }
+                span:nth-of-type(2){
+                    color: grey;    
+                }
+            }
+        }
+    }
+}
+.navHeader{
+    background: #47505f;
+    .col-lg-9{
+        color: #ffff;
+        padding: 6px 0;
+        padding-bottom: 5px;
+        span{
+            font-size: 30px;
+            color: #8892a3;
+        }
+    }
+}
+// newsList
+.newsList{
+    .row{
+        .col-lg-6{          
+            padding: 8px 0;
+            .title{
+                font-size: 20px;  
+                margin-top: 14px;            
+            }
+            .row{
+                margin-top: 10px;
+                border-bottom: 1px #aeaeae solid;
+                padding-bottom: 18px;
+                img,p{
+                    margin-left: 10px;
+                }
+            }
+        }
+        p{
+            font-size: 12px;
+            
+        }
+        .time{
+            font-size: 12px;
+            color: #aeaeae;
+        }
+        .rightList{
+            font-size:20px;
+            color: #6c737f;
+             margin-left: 22px;
+            li{
+                border-bottom: 1px gray solid;
+                padding: 10px 0;
+            }
+            li:nth-of-type(1){
+               color: red; 
+               background: lightgray;
+            }
+        }       
+    }
+}
+.footer{
+   .row{
+       margin: 0 auto;
+   }
+}
+.nextActicle{
+    border: 1px black solid;
+    background: gainsboro;
+    width: 70px;
+    margin: 0 auto;
+    padding: 6px 10px;
+}

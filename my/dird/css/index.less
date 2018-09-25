@@ -1,0 +1,617 @@
+/*清除浮动*/
+.clearfix :after{
+    content: "";
+    display: table;
+    clear: both;
+    overflow: hidden;
+}
+/*链接样式*/
+a,a:link,a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    background: #e1e1e1; 
+}
+.row{padding: 0px;margin: 0px;}
+header.header{
+    height: 60px;background: #404040;
+    .container{
+        position: relative;
+        .logo{
+            padding: 11px 0;
+            float: left;
+            img{
+                // height: 35px;
+            }
+        }
+    }
+    menu{
+        float: right;
+        padding: 0;
+        margin: 0;
+        .menuItem{
+            float: left;
+            color: #fff;
+            line-height: 40px;
+            padding: 10px 0;
+            position: relative;
+            a{
+                display: block;
+                padding: 0 10px;
+                margin-left: 34px;
+                &.active{
+                    background: #0086cc;
+                }
+                &:hover{
+                    background: #0086cc;
+                    transition: background linear 0.3s;
+                }
+                &:hover img{
+                    transform: rotate(180deg);
+                    transition: transform linear 0.2s;
+                }
+            }
+        }
+        .menuMain{
+            float: left;
+            color: #fff;
+            line-height: 40px;
+            padding: 10px 0;
+            position: static;
+            .item-title{
+                position: relative;
+            }
+        }
+        .menubar{
+            height: 40px;
+            position: absolute;
+            background: #0086cc;
+            left: 20px;margin: 10px 0;
+            z-index: 0;
+        }
+    }
+    .drop-down{
+        background: rgba(64,64,64,0.8);
+        position: absolute;
+        width: 100%;
+        top: 80px;
+        display: none;
+        z-index: 5;
+        &.drop-down-menu a{margin: 0;
+            padding: 0;height: 34px;
+            line-height: 34px;width: 100%;
+            text-align: center;
+        }
+    }
+    .drop-down-main-menu{
+        left: 0;
+        color: #000;
+        menu.item{
+            float: left;
+            width: 168px;
+            color: #fff;
+            padding: 7px;
+            .title{
+                border-bottom:  1px solid #757575;
+                margin-bottom: 5px;
+            }
+            a{
+                display: block;
+                float: left;margin: 0;
+                font-size: 12px;
+                color: #c6c6c6;height: 30px;
+                line-height: 30px;
+            }
+        }
+    }
+}
+.nav{
+   background: #404040;
+   height: 60px;
+   .col-xs-1{
+    img{
+       margin-top: 12px;
+       margin-left: 16px;
+    }
+   } 
+}
+/* 移动端menu */
+.rightMenu{
+    .titleBox{
+        position: fixed;
+        z-index: 50;
+        top:16px;
+        right: 20px;
+        ul,li {
+            list-style: none;
+            padding: 0px;
+            margin: 0px ;
+            color: white;         
+        } 					
+    }
+}
+/* 移动端menu 的title */
+.showTitle{
+    width: 100%;
+    height: 200px;
+    background: #404040;
+    color: #fff;
+    opacity: .9;
+    display: none;
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    overflow-y: scroll;
+    .showHead{
+        font-size: 16px;
+        text-indent: 2em;
+        margin-top: 8px;
+    }
+    .showSon{
+        font-size: 12px;
+        text-indent: 4em;
+        margin-top: 6px;    
+    }
+}
+/* banner 轮播 */
+.banner{
+    background: #d4d4d4;
+    .prevBtn,.nextBtn{
+        padding: 6px;
+        background: #cfcdcd;
+        width: 50px; 
+       margin-top: 90%;
+       &:hover{background:#008bd5; }
+    }
+}
+
+.animalList{
+    padding-top:300px;
+    padding-bottom: 160px; 
+        .text-center{
+            position: relative;
+            .animalOne,.animalTwo,.animalThree,.animalFour{
+                position: absolute;
+                img{
+                    background: #008bd5;
+                    padding: 20px;
+                }
+                p{
+                    color: black;
+                }
+                p:nth-of-type(1){
+                    font-size: 18px;
+                    margin-top: 20px;
+                }
+                p:nth-of-type(2){
+                    color: #676767;
+                }
+                p~p{
+                    color: #383838
+                }
+            }          
+        }
+}
+/* animalList  ---移动端适配 */
+@media only screen and(max-width:767px){
+        .animalList{
+            padding-bottom: 570px;
+        }
+        .animalThree,.animalFour{
+            top: 400px;
+        }
+}
+.are{
+    .container-fluid,.col-lg-6{
+        margin: 0px;
+        padding: 0px;
+        .areLeft{
+            position: relative;
+            .weAre{
+                position: absolute;
+                margin-top: -50px;
+                left:120px;
+                background: #008bd5;
+                color: #fff;
+                font-size: 20px;
+                padding:20px 10px; 
+            }
+        }
+        .areRight{ 
+            position: relative;          
+            .areInfor{ 
+                .inforAboutUs,.inforTwo,.inforThree, .inforBtn{
+                    position: absolute;
+                    bottom: 0;
+                }
+               .inforAboutUs{
+                   font-size: 20px;
+                   color: #fff;
+               }
+               .inforTwo{
+                   font-size: 15px;
+                   color: #fff;
+               } 
+               .inforThree{
+                   color: #7ad1ff;
+                   font-size: 13px;
+               }
+               .inforBtn{
+                    color: #7ad1ff;
+                    font-size: 13px;
+                    position: absolute;
+                    bottom: 50;
+                    left: 44%;
+                    border: 1px #45bfff solid;
+                    width: 100px;
+                    padding-top: 12px;
+                    &:hover{
+                        cursor: pointer;
+                        padding-left:10px;
+                        background: #049def;
+                        transition: all .5s
+                    }
+                }
+            }
+        }
+    }   
+}
+/* are ------------移动端适配 */
+@media only screen and(max-width:415px){
+    .are{
+        .container-fluid,.col-lg-6{
+            .areRight{
+                background:#008bd5; 
+                width: 100%;
+                height: 600px;
+                // .inforAboutUs,.inforTwo,.inforThree, .inforBtn{
+                //     margin-bottom: 200px;
+                // }
+                .inforAboutUs{
+                    margin-bottom: 300px;
+                }
+                .inforTwo{
+                    margin-bottom: 150px;
+                }
+                .inforThree{
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+}
+.case{
+    padding-top:260px; 
+    .col-lg-4{
+        padding-left: 120px;
+        // padding-top: 100px;
+        position: relative;
+        .newCase{
+            position: absolute;
+            width: 120px;
+            font-size: 20px;
+            background: #008bd5;
+            color: #fff;
+            padding: 20px 10px;
+        }        
+    }
+    .col-lg-8{
+        // margin-top: 70px;
+        padding: 0px;
+        position: relative;
+        ul{
+            position: absolute;
+        }
+        ul li{          
+            list-style: none;
+            float: left;
+            font-size: 16px;
+            padding:4px 10px;           
+            // background: #008bd5;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            &:hover{
+                background: #008bd5;
+                cursor: pointer;
+                color: #fff;
+                transition: all .5s
+            }
+        }
+    }
+}
+.imgNewsList{
+    .row{  
+        .col-lg-4{
+            position: relative;
+            margin:200px 0;
+            .twoImgList{
+            position: absolute;
+                .ulList{
+                    padding: 0px; 
+                    margin: 0px;
+                    li{
+                        float: left;
+                        position: relative;
+                        overflow: hidden; 
+                        img{
+                            width: 409px;
+                             height:242px;
+                        }
+                        .imgHidden{
+                            position: absolute; 
+                            height: 0; 
+                            bottom: 0;
+                            .text{
+                                color: white; 
+                                position: absolute; 
+                                z-index: 1; 
+                                font-size: 14px;}					
+                        }
+                    }
+                }
+                .ImgTitle{
+                        margin-top: 230px;
+                    p:nth-of-type(1){
+                        color: #000;
+                        font-size: 15px;
+                    }
+                    p:nth-of-type(2){
+                        color: #8f8f8f;
+                        font-size: 13pxs;
+                    }
+                }               
+            }  
+            .sileOneImg,.sileTwoImg,.sileThreeImg,{
+                top: 100px;
+                margin-bottom: 150px;
+            }        
+        }
+        .col-lg-12{
+            .bottomBtn{
+                color: #000;
+                font-size: 13px;
+                position: absolute;
+                bottom: 50;
+                left: 44%;
+                border: 1px #b0b0b0 solid;
+                width: 100px;
+                padding: 12px 0;
+                &:hover{
+                    cursor: pointer;
+                    padding-left:10px;
+                    background: #049def;
+                    color: #fff;
+                    transition: all .5s
+                }              
+            }
+        }
+    }
+}
+/* imgNewsList  ---移动端适配*/
+@media only screen and(min-width:768px)and(max-width:992px ){
+    .imgNewsList {
+        .row{
+            .col-lg-10{
+                .col-lg-4 {
+                    .twoImgList{
+                        .ulList{
+                            margin-left:150px;
+                        }
+                        .ImgTitle{
+                            margin-left:150px;
+                            margin-top:230px;
+                        }
+                    } 
+                }  
+            }
+        }        
+    }
+}
+/* imgNewsList  ---移动端适配*/
+@media only screen and(min-width:992px)and(max-width:1200px ){
+    .imgNewsList {
+        .row{
+            .col-lg-10{
+                .col-lg-4 {
+                   .sileFourImg{
+                       top:20px;
+                   }
+                }  
+            }
+        }        
+    }
+}
+/* imgNewsList  ---移动端适配*/
+@media only screen and(max-width:768px ){
+    .imgNewsList {
+        .row{ 
+            .col-lg-10{
+                .col-lg-4 {
+                    padding-bottom:150px; 
+                   .sileFourImg{
+                    top:100px;
+                   }
+                   .sileFiveImg{
+                    margin:100px 0;
+                   }
+                }
+                .col-slid{
+                    padding-bottom:0;
+                }  
+            }
+        }        
+    }
+}
+.threeCade{
+    position: relative;
+    .box{ 
+        margin-top: 40px ;
+        background: #d1d1d1;  
+        width: 100%; 
+        height: 390px;
+        .list{
+            display: none;
+            position: absolute;
+            margin-top: 170px;
+            width: 100%;
+            .row{
+                .shadow{
+                    padding-bottom:80px;
+                    .row{
+                        padding-top: 50px;
+                        .col-lg-3,.col-md-3,.col-sm-2{
+                            padding: 0;
+                            p:nth-of-type(1){
+                                font-size: 20px;
+                            }
+                            p:nth-of-type(2){
+                                text-indent: 2em;
+                            }
+                        }
+                        .col-lg-7,.col-md-7,.col-sm-7{
+                            padding: 0;
+                            p:nth-of-type(2){
+                                color: gray;
+                                font-size: 13px;
+                            }
+                        }
+                    } 
+                    &:hover{                   
+                       box-shadow:0 0 20px 2px gray;
+                       cursor: pointer;
+                       transition: all .5s;
+                       .row{
+                        .col-lg-7,.col-md-7{
+                            p{
+                              
+                                text-decoration: underline;
+                                
+                            }
+                        }
+                    }   
+                    }
+                }
+            }        
+        }
+              
+    }
+    .btn-list{
+        position: absolute;
+        width: 100%;
+        bottom: 100px;
+        text-align: center;
+        span{
+            display: inline-block;
+            width: 7px;
+            height: 7px;
+            background: dimgray;
+            border-radius: 50%;
+            &.active{
+                background: #0086CC;               
+            }
+        }
+    } 
+    .bttn{
+        right:120px; 
+        top: -60px; 
+        position: absolute;
+        top: 100px;
+        button{
+            border: none; 
+            outline: none; 
+            padding: 10px 20px; 
+            cursor: pointer;
+            &.active{
+                background: #0086CC;
+                color: #fff;
+            }	
+        }
+    }				
+}
+/* threeCade  ---移动端适配*/
+@media only screen and(max-width:769px ){
+    .threeCade{
+        position: relative;
+        .box{ 
+            margin-top: 40px ;
+            background: #d1d1d1;  
+            width: 100%; 
+            height: 500px;
+        }
+    }
+}
+/* threeCade  ---移动端适配*/
+.footerBottom{
+    background: #505050;
+    height: 400px;
+    .row{
+        .leftInfor{
+            .row{              
+                .col-lg-4{                 
+                    .leftTitle{
+                        position: relative;
+                        margin-top:380px;
+                        .small{
+                            position: absolute;
+                            p{
+                                font-size: 20px;
+                                color: rgb(119, 119, 119);
+                                &:nth-of-type(1){
+                                    color: #fff; 
+                                    margin: 0px;                                                   
+                                }
+                                &:nth-of-type(4){
+                                    img:nth-of-type(2){margin:0 22px;}
+                                }
+                            }
+                        }                      
+                    }                                      
+                }
+            }           
+        }
+        .rightInfor{
+            margin-top: 380px;
+            .row{              
+                .col-lg-3{
+                    position: relative;
+                   .oneRight,.twoRight,.threeRight{
+                       position: absolute;
+                        p{
+                            color: #fff;
+                            &:nth-of-type(1){
+                                font-size: 16px;
+                                padding:  0 20px 8px 0;
+                                border-bottom:1px solid #747474;
+                            }
+                        }                      
+                    }                  
+                }
+            }       
+        }
+    }
+    .bottomContact{
+        margin:100px 0 0 20px; 
+        color: #fff;       
+    }
+}
+.bottom{
+    background: #404040;  
+    p{
+       color: #6e6e6e;
+       font-size: 12px; 
+       padding: 20px 0;
+       margin: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

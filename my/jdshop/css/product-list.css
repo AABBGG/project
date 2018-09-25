@@ -1,0 +1,63 @@
+	nav.position span{font-size: 12px; margin-left: 170px; margin-top: 10px;}
+			/******当前的位置****/
+			section.iphone-product-list{ width: 1180px; height:494px; margin-left: 170px; margin-top: 20px;}
+			section.iphone-product-list .product-list{width: 90px; height: 494px;  float: left;}
+			section.iphone-product-list .product-list ul li{border:1px lightgrey solid ; padding: 16px 12px; font-weight: bold;}
+			
+			section.iphone-product-list .iphone-list{width: 1000px; height: 494px;  float: left;}
+			section.iphone-product-list .iphone-list .iphone-div{border-top:1px darkgray solid; height: 54px; background: white; line-height: 54px;}
+			section.iphone-product-list .iphone-list .iphone-div ul li{display: inline-block; cursor: pointer; margin-left: 20px;font-size: 12px; color: black;}
+			section.iphone-product-list .iphone-list .iphone-div ul li:hover{color: #FC3E3E; text-decoration: underline;}
+			section.iphone-product-list .iphone-list .iphone-div ul li img{width: 87px; height: 23px;}
+			section.iphone-product-list .iphone-list .iphone-div ul li input{width: 50px;}
+			section.iphone-product-list .iphone-list .iphone-div ul li button{border: none; outline: none; cursor: pointer;}
+			section.iphone-product-list .many-list{ float: left;  background: white; width: 70px; height: 494px;}
+			section.iphone-product-list .many-list ul li{padding: 15.6px 0; border-top:1px darkgray solid ;}
+			section.iphone-product-list .many-list ul li span{display: block; cursor: pointer; border:1px darkgray solid ; width: 50px; margin-left: 10px;}
+			/*****各个手机品牌的参数******/
+			section.iphone-img{/*border:1px red solid ;*/ width: 1160px; height: 500px; margin-left: 170px; margin-top: 50px; }
+			section.iphone-img .img-iphone-left{float: left; /*border:1px red solid ;*/ width: 230px; height: 1300px; background: white;}
+			section.iphone-img .img-iphone-left .iphoneleft-txt{display: block;padding: 10px 30px; font-size:20px; font-weight: bold;}
+			section.iphone-img .img-iphone-left ul li{border-top:1px darkgray solid ;}
+			section.iphone-img .img-iphone-left ul li img{ margin-left: 30px; margin-top: 10px;}
+			section.iphone-img .img-iphone-left ul li span{display: block; font-size: 14px;}
+			section.iphone-img .img-iphone-left ul li span:nth-of-type(1){margin-left: 30px;}
+			section.iphone-img .img-iphone-left ul li span:nth-of-type(2){margin-left: 10px;}
+			section.iphone-img .img-iphone-left ul li span:nth-of-type(3){color: #FC3E3E; font-size: 20px; font-weight: bold; margin-left: 60px;}
+			
+			section.iphone-img .img-iphone-right{float: left; /*border:1px red solid*/ ; width: 920px; height: 1300px; background: white;}
+				.tab-banner-box{position:relative;width:920px;height:1300px;overflow:hidden;/*border:1px solid red*/}
+				.tab-banner-box .tab-ul ul li{ float: left; padding: 11px 20px; cursor: pointer;}
+				.tab-banner-box .tab-ul ul li:hover{background: #FFC66E; color: white;}
+				.tab-banner-box .tab-ul ul li:nth-of-type(1){background: #FFC66E; color: white;}
+				.tab-banner-box .tab-ul ul li.trade{background: #FFC66E; color: white; margin-left: 470px; font-size: 20px; padding: 8px 14px;}
+				.products{float:left;width:920px;height:1300px; border:2px #FFC66E solid ; }				
+				.products li{width:224px;height:300px; border-top:1px gainsboro solid ;border-left:1px gainsboro solid ; float: left; }
+				.products li .pic{width:150px;height:120px; margin: 0; padding: 0;}
+				.products li .pic img{width:160px;height:160px; margin-left: 30px;}
+				.products li .name{margin-top: 50px;}
+				.products li .name span{display: block; font-size: 14px;}
+				.products li .name span:nth-of-type(1){margin-left: 40px;}
+				.products li .name span:nth-of-type(2){margin-left: 14px;}
+				.products li .name span:nth-of-type(3){margin-left: 70px; color: red; font-size: 20px; font-weight: bold;}
+				.products li .select-btn span{ padding: 8px 10px;margin-left: 10px;border-radius: 4px;cursor: pointer;}
+				.products li .select-btn span:nth-of-type(1){border:1px grey solid ;  }
+				.products li .select-btn span:nth-of-type(1):hover{background: darkgray; color: white;}
+				.products li .select-btn span:nth-of-type(2){background: #FECA79; color: #FFFACD;}
+				
+				section.iphone-tab{margin-top: 20px;}
+				section.iphone-tab .tab-banner-boxtwo{position:relative;width:1150px;top: 40px; left: 170px; height:315px;overflow:hidden; background: white;}
+				section.iphone-tab .tab-banner-boxtwo .miss-like span{background: #FC3E3E; color: white;float: left; padding: 7px;}
+				section.iphone-tab .tab-banner-boxtwo .miss-buy-nav{position: absolute;right: 0;}
+				section.iphone-tab .tab-banner-boxtwo .miss-buy-nav .befor,.tab-banner-boxtwo .miss-buy-nav .after{background: grey; cursor: pointer; color: white; padding: 6px; border-radius: 50%;}			
+				.miss-buy-hd-img{position:relative;height:50px;border-bottom:3px solid #FC3E3E;line-height:37px; }
+				.products-ul{float:left;width:1196px;height:315px;}
+				.products-ul li{float:left;width:190px;height:267px; border-left:2px gray solid ; padding: 18px;}
+				.products-ul li:nth-of-type(1){border: none;}
+				.products-ul li .imgs{width:150px;height:100px; margin: 0; padding: 0;}
+				.products-ul li .imgs img{width:160px;height:160px;margin-left: 20px;}
+				.products-ul li .name-txt{margin-top: 60px;}
+				.products-ul li .name-txt span{margin: 0; padding: 0; font-size: 14px; display: block;}
+				.products-ul li .name-txt span:nth-of-type(1){margin-left: 30px;}
+				.products-ul li .name-txt span:nth-of-type(3){color: red; font-size: 20px; margin-left: 60px;}
+				/*******图片的tab-banner切换******/

@@ -1,0 +1,49 @@
+body{
+    background: #f4f2f2;
+}
+.acticle{
+    margin-top:3%;
+    .col-lg-10{      
+        background:#ffff;
+        padding:0 10%;
+        h3,h4{
+            margin-top:3%;
+            font-weight: bold;
+        }
+        .time{
+            font-size: 12px;
+            color: #999;
+        }
+        p{text-indent: 2em;
+            &:nth-of-type(4),&:nth-of-type(8),&:nth-of-type(10),&:nth-of-type(13),&:nth-of-type(20),&:nth-of-type(16){
+                font-weight: bold;
+            }
+        }
+        .send{
+            border: 1px gray solid;
+            width: 600px;
+            height: 40px;
+            background: #f7f7f7;
+            button{
+                float:right;
+                border: none;
+                background: #f54343;
+                color: white;
+                font-weight: bold;
+                font-size: 16px;
+                padding: 7px 6px;
+                &:hover{
+                    background: lighten(#f54343,5%)
+                }
+            }
+        }
+        .comment{
+            width: 600px;
+            height: 40px;
+            margin-bottom: 50px;
+            background: #f7f7f7;
+            line-height: 40px;
+            color: #024375;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+			nav.load-finsh{width: 1230px; height: 50px; margin-left: 160px; margin-top: 20px; position: relative;}
+			nav.load-finsh ul li{float: left;  }
+			nav.load-finsh ul li img{ margin-left: -16px;}
+			nav.load-finsh ul li:nth-of-type(1) img{margin-left: 0px;}
+			nav.load-finsh ul li span{ position: absolute; color: #FFFACD; margin-left: 20px; line-height: 50px;}
+			nav.load-finsh ul li:nth-of-type(2) span img,nav.load-finsh ul li:nth-of-type(3) span img{margin:0 10px;}
+			/*******完成进度******/
+			section.bill-page{ width: 1230px; height: 730px; background: white; margin-left: 160px; margin-top: 40px; padding-top: 40px;}
+			section.bill-page .success-img{/*border:1px red solid ;*/ height: 150px;}
+			section.bill-page .success-img .success-one{margin: 20px auto;  text-align: center;}
+			section.bill-page .success-img .success-one span{font-size: 22px; color: lightgrey;}
+			section.bill-page .success-img .success-one span b{color: #FC3E3E;}
+			section.bill-page .success-img .begin-send{border:1px gainsboro solid ; margin:60px auto ; width: 1100px; height: 120px;}
+			section.bill-page .success-img .begin-send ul li{margin-top: 20px; margin-left: 100px;}
+			section.bill-page .success-img .begin-send ul li span{margin: 0 20px ;}
+			section.bill-page .success-money span{text-align: right; display: block;}
+			section.bill-page .success-money span b{font-size: 24px; color: #FC3E3E;}
+			section.bill-page .success-kind span{font-weight: bold; font-size: 20px;margin-left: 60px;}
+			section.bill-page .success-online{border-top: 1px gainsboro solid; position: relative; margin-top: 20px;}
+			section.bill-page .success-online ul li{float: left; margin-left: 50px;  margin-top: 10px ;}
+			section.bill-page .success-online ul li input{ position: absolute; top: 32px;}
+			section.bill-page .success-online ul li img{margin-top: 20px; margin-left: 30px;}
+			section.bill-page .success-two{margin-top: 90px;}
+			section.bill-page .success-two-img img{border:1px lightgrey solid ;}
+			section.bill-page .success-two span{font-size: 12px; margin-left: 60px;}
+			section.bill-page .success-btn{position: absolute;  right: 100px; top: 90px; background: #FC3E3E; color: white; padding: 12px 30px; font-size: 18px; border-radius: 8px; cursor: pointer;}	

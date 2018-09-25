@@ -1,0 +1,81 @@
+.banner {
+  margin: 0 auto;
+}
+.banner.container {
+  padding: 0px;
+}
+.banner .item img {
+  margin: 0 auto;
+  width: 1200px;
+  overflow: hidden;
+}
+.infor .row {
+  margin: 0 auto;
+}
+.infor .row div.col-md-4:nth-of-type(1),
+.infor .row div.col-md-4:nth-of-type(2) {
+  background: none;
+}
+.infor .row div.col-md-4 {
+  position: relative;
+  height: auto;
+  background: url(../img/st.jpg) no-repeat;
+  background-position: 6px 50px;
+}
+.infor .row div.col-md-4 span.mo {
+  color: gray;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 14px;
+}
+.infor .row div.col-md-4 a {
+  color: #47505f;
+  font-size: 18px;
+  font-weight: bold;
+}
+.infor .row div.col-md-4 .author {
+  color: #aeaeae;
+  font-size: 12px;
+}
+.infor .row div.col-md-4 .news {
+  font-size: 12px;
+}
+.infor .row div.col-md-4 p {
+  position: relative;
+}
+.infor .row div.col-md-4 p img {
+  text-align: center;
+}
+.infor .row div.col-md-4 p .imgNews a {
+  background: gray;
+  opacity: 0.8;
+  position: absolute;
+  top: 156px;
+  color: gainsboro;
+  padding: 1px 16px;
+  font-size: 14px;
+}
+.infor .row div.col-md-4.daily p {
+  font-size: 14px;
+  line-height: 26px;
+}
+.infor .row div.col-md-4.daily p:hover {
+  color: red;
+}
+.infor .logoList .col-lg-12 img {
+  text-align: center;
+}
+.infor .logoList .col-lg-4 .caption h3 {
+  color: #47505f;
+  text-align: center;
+}
+.infor .logoList .col-lg-4 .caption p a {
+  color: #2b2b2b;
+  font-weight: normal;
+  text-align: center;
+}
+.infor .logoList .col-lg-4 .caption .decs {
+  color: #828282;
+  font-size: 12px;
+}

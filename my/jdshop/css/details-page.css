@@ -1,0 +1,156 @@
+section.txt .txt-box{margin-left: 166px; margin-top: 8px;}
+			section.txt .txt-box span{font-size: 14px;}
+			/****一行文字****/
+			section.banner-img{width: 1192px; height:618px; margin-left: 164px; margin-top: 20px; background: white;}
+			section.banner-img .img-box{width: 458px; height: 618px; /*border:1px black solid ;*/ float: left;}									
+			section.banner-img .img-box .bd{background: url(img/goods.png); width: 433px; height: 433px;margin-bottom: 10px; transition: all .6s; 
+				position: relative;overflow: hidden;}
+			section.banner-img .img-box .hd img{margin-top:26px; border: 2px solid transparent; width:80px; height: 80px;}	
+			/******手机图片展示-左边的*******/
+			section.banner-img .img-infor{width: 490px; height: 618px; /*border:1px black solid ;*/ float: left;}
+			section.banner-img .img-infor .iphone-logo p{font-weight:bold; margin-top: 30px;}
+			section.banner-img .img-infor .iphone-logo p:nth-of-type(2){font-weight:normal;font-size: 12px; margin-top:16px;}
+			section.banner-img .img-infor .iphone-price ul li{float:left ; margin-left:10px ; }
+			section.banner-img .img-infor .iphone-price ul li:nth-of-type(1){font-size:14px}
+			section.banner-img .img-infor .iphone-price ul li:nth-of-type(2){color:#FC3E3E}
+			section.banner-img .img-infor .iphone-price ul li:nth-of-type(3){font-size: 20px; color:#FC3E3E; font-weight: bold;}
+			section.banner-img .img-infor .iphone-price p{margin-left:50px; margin-top: 26px;}
+			section.banner-img .img-infor .iphone-price p s{color: gray; margin-left: 20px; }
+			section.banner-img .img-infor .iphone-color span{display: block; margin-top: 20px; float: left; margin-left: 10px; font-size: 14px;}
+			section.banner-img .img-infor .iphone-color	ul{list-style: none; display: inline-block; margin-left:10px ;}
+			section.banner-img .img-infor .iphone-color ul li {height: 30px; width: 30px; margin-left: 30px; margin-top: 20px; border-radius: 50%;border:1px gray solid ;  display: inline-block; cursor: pointer;}
+			section.banner-img .img-infor .iphone-color ul li span{display: block; background: gray; width:22px; height: 22px;border-radius: 50%; line-height: 20px; margin-top: 4.3px; margin-left:3.6px;}
+			section.banner-img .img-infor .iphone-color .active{box-shadow:0 0 6px 3px black ;}
+			section.banner-img .img-infor .iphone-version{position: relative; margin:30px 0 10px 10px;}
+			section.banner-img .img-infor .iphone-version ul{list-style: none; display: inline-block;}
+			section.banner-img .img-infor .iphone-version span{ float: left; position: absolute;}
+			section.banner-img .img-infor .iphone-version ul li {height: 20px; width: 164px; border:1px gray solid ;  margin-left: 40px; margin-top: -20px; display: inline-block; cursor: pointer; border-radius: 4px;}
+			section.banner-img .img-infor .iphone-version ul li:nth-of-type(3){margin-top: 10px;}
+			section.banner-img .img-infor .iphone-version ul li span{font-size: 12px;color: gray;   }
+			section.banner-img .img-infor .iphone-version .ver{background: #ffc66e;}
+			section.banner-img .img-infor .iphone-count{ margin-top: 20px;}
+			section.banner-img .img-infor .iphone-count span{margin-left: 10px;}
+			section.banner-img .img-infor .iphone-count	button{border: none; outline: none; border-radius: 50%; cursor: pointer;}
+			section.banner-img .img-infor .iphone-count	input{width: 20px;text-align: center; margin: 0 20px;}
+			section.banner-img .img-infor .iphone-count	.count{margin-left: 20px;}
+			section.banner-img .img-infor .iphone-select{margin-top: 36px;margin-left: 10px;}
+			section.banner-img .img-infor .iphone-select option{color: darkgrey; border:1px gainsboro solid ;}
+			section.banner-img .img-infor .iphone-select .select-express{margin-left: 100px;}
+			section.banner-img .img-infor .iphone-server{margin-top: 20px; margin-left: 10px;}
+			section.banner-img .img-infor .iphone-server span{font-size: 12px;}
+			section.banner-img .img-infor .iphone-server span b{color: blue;}
+			section.banner-img .img-infor .iphone-buy{margin-top:20px;}
+			section.banner-img .img-infor .iphone-buy ul li{float: left; cursor: pointer; margin-left: 20px; border: 1px #feca79 solid; padding:10px 30px; border-radius: 6px;}
+			section.banner-img .img-infor .iphone-buy ul li:nth-of-type(1){color:#feca79 ;}
+			section.banner-img .img-infor .iphone-buy ul li:nth-of-type(2){background: #fdc164; color: ghostwhite;}
+			/*手机信息介绍-中间的*/
+			section.banner-img .img-tab{width: 230px; height: 618px; border-left:8px gainsboro solid ; float: right;}
+			.tab-banner-box{position:relative;width:220px;height:615px;overflow:hidden;}
+			.tab-banner-box span{display: block;float: left; margin-top: 10px; margin-left: 20px;}
+			.tab-banner-box span.trade{margin-left: 70px; cursor: pointer;}
+			.tab-banner-box .tab-img-left{margin-top: 40px;}
+			.products{float:left;width:220px;height:615px; }
+			.products li{width:220px;height:267px;}
+			.products li{margin-top: 6px; border-top:1px darkgray solid ;}
+			.products li img{margin-top: 14px;}
+			.products li .pic{width:150px;height:120px; margin: 0; padding: 0;}
+			.products li .pic img{width:160px;height:160px; margin-left: 30px;}			
+			.products li .name{margin-top: 50px;}
+			.products li .name span{display: block; font-size: 14px;}
+			.products li .name span:nth-of-type(1){ margin-left: 35px;}
+			.products li .name span:nth-of-type(2){ margin-left: 10px;}
+			.products li .name span:nth-of-type(3){color: red; margin-left: 70px; font-size: 18px;}
+			/*********手机tab图片的切换-右边的******/
+			section.iphone-details{/*border:red 1px solid;*/ width: 1196px; height: 2500px; margin-top: 50px; margin-left: 160px;}
+			section.iphone-details .iphone-recommend{width: 220px; height: 1440px;float: left; background: white;}
+			section.iphone-details .iphone-recommend .tab-banner-box{position:relative;width:220px;height:615px;overflow:hidden;}
+			section.iphone-details .iphone-recommend span.recom-txt{display: block;float: left; margin-top: 12px; margin-left: 20px; font-size: 18px; font-weight: bold;}
+		
+			section.iphone-details .iphone-recommend .tab-img-left{margin-top: 46px;}
+			section.iphone-details .iphone-recommend .products{float:left;width:220px;height:615px; }
+			section.iphone-details .iphone-recommend .products li{width:220px;height:267px;  }
+			.products li{margin-top: 6px; border-top:1px darkgray solid ;}
+			.products li img{margin-top: 14px;}
+			.products li .pic{width:150px;height:120px; margin: 0; padding: 0;}
+			.products li .pic img{width:160px;height:160px; margin-left: 30px;}			
+			.products li .name{margin-top: 80px;}
+			.products li .name span{display: block; font-size: 14px;}
+			.products li .name span:nth-of-type(1){ margin-left: 35px; }
+			.products li .name span:nth-of-type(2){ margin-left: 10px;}
+			.products li .name span:nth-of-type(3){color: red; margin-left: 70px; font-size: 18px;}
+			
+			
+			section.iphone-details .details{width: 942px; height: 6174px;background: white;float: left; margin-left: 16px;}
+			
+			.tab-menu{height:50px;width:390px;}
+			.tab-menu li{display:block;float:left; padding: 15px 16px; }
+			.tab-box div{width:943px;height:2450px;border-top:1px solid gray;display:none;}
+			.tab-box div:first-Child{display:block;} 
+			.change{background:#feca79; color: white;} 
+			section.iphone-details .details .tab .tab-one ul li{ float: left;padding-bottom: 10px; width: 310px; font-size: 14px; }
+			section.iphone-details .details .tab .tab-one span.tab-one-img{ margin-top:120px; height:810px;display: block; border-bottom:1px gray solid ;}
+			section.iphone-details .details .tab .tab-one span.tab-one-img .iphone-model{display: block; width: 390px; margin-top: 20px; margin-left: 180px; font-weight: bold; font-size: 36px; color: grey; border-bottom:4px gray solid; padding:10px 60px;}
+			section.iphone-details .details .tab .tab-one span.tab-one-img img{margin-left: 130px; margin-top: 50px;}			
+			section.iphone-details .details .tab .tab-one span.tab-two-img{height:660px;display: block; border-top:1px gray solid ;border-bottom:2px gray solid ;}
+			section.iphone-details .details .tab .tab-one span.tab-two-img .tab-img{display: block; width: 340px; height: 650px; float: left;  margin-top: 20px;}
+			section.iphone-details .details .tab .tab-one span.tab-two-img .tab-img img{margin-left: 80px;}
+			section.iphone-details .details .tab .tab-one span.tab-two-img .tab-img:nth-of-type(2){width: 440px; margin-left: 50px;}
+			section.iphone-details .details .tab .tab-one span.tab-two-img .tab-img:nth-of-type(2) span{display: block;}
+			section.iphone-details .details .tab .tab-one span.tab-two-img span.tab-txt1{font-size: 50px; color: gray; font-weight: bold; margin-top: 140px; margin-left: 50px;}
+			section.iphone-details .details .tab .tab-one span.tab-two-img span.tab-txt2{font-size: 20px; color: darkgray; margin-top: 20px;}
+		    section.iphone-details .details .tab .tab-one span.tab-three-img{}
+		    section.iphone-details .details .tab .tab-one span.tab-three-img .tab-img{width: 440px; height: 650px; float: left; display: block; }
+			section.iphone-details .details .tab .tab-one span.tab-three-img .tab-img span{display: block;}
+			section.iphone-details .details .tab .tab-one span.tab-three-img .tab-img span.tab-txt1{margin-top: 160px; font-size: 50px; color: gray; font-weight: bold;}
+			section.iphone-details .details .tab .tab-one span.tab-three-img .tab-img span.tab-txt2{margin-top: 80px; font-size: 20px; color: darkgray;}
+			
+			section.iphone-details .details .tab .tab-one span.tab-evaluate ul li{margin-top: 40px;margin-bottom: 30px; margin-left: 50px; height: 120px; width: 170px;  /*border:1px red solid ;*/}
+			section.iphone-details .details .tab .tab-one span.tab-evaluate ul li:nth-of-type(1){border-right:1px grey solid ;}
+			section.iphone-details .details .tab .tab-one span.tab-evaluate ul li:nth-of-type(2){border-right:1px grey solid ;}
+			section.iphone-details .details .tab .tab-one span.tab-evaluate ul li:nth-of-type(4){border-left:1px grey solid ; padding-left: 40px; margin-left:36px;}
+			section.iphone-details .details .tab .tab-one span.tab-evaluate ul li span{font-size: 12px;}
+			section.iphone-details .details .tab .tab-one span.tab-evaluate ul li span.out{margin-left: 40px; cursor: pointer; background: #FC3E3E; color: white; border-radius: 6px;   padding: 10px 20px;  }
+			section.iphone-details .details .tab .tab-one span.tab-user{margin-top: 20px; display: block; border-bottom:2px darkgrey solid  ; width: 940px ; height: 238px;}
+			section.iphone-details .details .tab .tab-one span.tab-user ul li{float: left;width:816px ; height: 216px;}
+			section.iphone-details .details .tab .tab-one span.tab-user ul li:nth-of-type(1){ width: 120px;}
+			section.iphone-details .details .tab .tab-one span.tab-user ul li .img-iph img{ border:1px lightgrey solid ; padding: 4px; margin:10px 20px 16px 0 ;cursor: pointer;}
+			section.iphone-details .details .tab .tab-one span.tab-user ul li .zanlun{font-size: 12px; color: darkgrey; margin-top: 20px;}
+			section.iphone-details .details .tab .tab-one span.tab-user ul li .zanlun .zan{margin-left: 700px;}
+		
+			section.iphone-details .details .tab .tab-one ul li{float: left;padding-bottom: 10px; width: 310px; font-size: 14px;}
+			
+			section.iphone-details .details .tab .tab-one span.tab-evaluate ul li{margin-top: 40px;margin-bottom: 30px; margin-left: 50px; height: 120px; width: 170px;  /*border:1px red solid ;*/}
+			section.iphone-details .details .tab .tab-one span.tab-evaluate ul li:nth-of-type(1){border-right:1px grey solid ;}
+			section.iphone-details .details .tab .tab-one span.tab-evaluate ul li:nth-of-type(2){border-right:1px grey solid ;}
+			section.iphone-details .details .tab .tab-one span.tab-evaluate ul li:nth-of-type(4){border-left:1px grey solid ; padding-left: 40px; margin-left:36px;}
+			section.iphone-details .details .tab .tab-one span.tab-evaluate ul li span{font-size: 12px;}
+			section.iphone-details .details .tab .tab-one span.tab-evaluate ul li span.out{margin-left: 40px; cursor: pointer; background: #FC3E3E; color: white; border-radius: 6px;   padding: 10px 20px;  }
+			
+			section.custom-infor{width: 1534px; height: 342px; background: white; border-top:1px gainsboro solid ; margin-top: 3730px; position: relative;}
+			section.custom-infor .custom-good ul li{float: left; border-right:1px lightgray solid ; width: 220px;padding: 10px  40px 10px 0; text-align: center;margin-left: 30px; margin-top: 16px;}
+			section.custom-infor .custom-good ul li:nth-of-type(1){margin-left: 210px;}
+			section.custom-infor .custom-good ul li:nth-of-type(4){border: none;}
+			section.custom-infor .custom-good ul li span{display: block; float: right; font-size: 20px; color: #333333; margin-top: 6px; cursor: pointer;}
+			section.custom-infor .custom-tech{border-top: 1px lightgray solid; width: 1175px; height: 180px; margin-top: 90px; margin-left: 170px;}
+			section.custom-infor .custom-tech ul li{float: left; margin-right: 90px;}
+			section.custom-infor .custom-tech ul li h4{margin-top:20px ;}
+			section.custom-infor .custom-tech ul li span{display: block; color: #666666;}
+			section.custom-infor .custom-tech ul li span:hover{color: #FC3E3E; cursor: pointer;}
+			section.custom-infor .custom-tech ul li span:nth-of-type(1){margin-top: 10px;}
+			section.custom-infor .custom-img{position: absolute; right: 270px; bottom: 30px;}
+			section.custom-infor .contect{margin-left: 180px;}
+			section.custom-infor .contect ul li{float: left; font-size: 18px; color: #666666; cursor: pointer;}
+			section.custom-infor .contect ul li:nth-of-type(1){color: #333333;}
+			section.custom-infor .contect ul li:nth-of-type(2){margin: 0 60px 0 16px;}
+			/******店铺诚信  以及  新手注册********/
+			footer.footer .footer-box1{ width: 1535px;height: 60px; background: #666666; position: relative;}
+			footer.footer .footer-box1 .footer-box-ul ul{margin-left: 540px;}
+			footer.footer .footer-box1 .footer-box-ul ul li{float: left; cursor: pointer; font-size: 12px; color: #fefefefe;border-right:1px white solid ; padding: 4px 14px 0 6px; margin-top: 10px; }
+			footer.footer .footer-box1 .footer-box-ul ul li:nth-of-type(6){border: none;}
+			footer.footer .footer-box1 .footer-txt{position: absolute; left: 450px; top: 30px;}
+			footer.footer .footer-box1 .footer-txt span{ font-size: 12px; color:#fefefefe ; cursor: pointer;}
+			/*****倒数第二个footer****/
+			footer.bottom-footer{width: 1535px; height: 40px; background: #333333;}
+			footer.bottom-footer ul li{float: left; margin-top: 8px;margin-left: 14px;}
+			footer.bottom-footer ul li:nth-of-type(1){margin-left: 450px;}
+			footer.bottom-footer ul li span{font-size: 11px; color: #fefefe;}

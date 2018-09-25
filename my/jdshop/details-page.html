@@ -1,0 +1,1903 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>details-page</title>
+		<script src="js/jquery.min.js" type="text/javascript"></script>
+		<script src="js/details-page.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/details-page.css"/>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header-cont">
+				<div class="header-cont-left">
+					<span class="header-txt"><img src="img/定位.png"/>北京市， 市辖区，东城区</span>
+				</div>
+				<div class="header-cont-right">
+					<div class="header-right-lefttxt">
+						<span class="login">你好，请登录</span>
+						<span class="free" > 免费注册</span>
+					</div>
+					<div class="header-right-righttxt">
+						<ul>
+							<li>我的订单</li>
+							<li>我的浏览</li>
+							<li>我的收藏</li>
+							<li>客户服务</li>
+							<li class="web-nav">网站导航 <img src="img/首页顶部条_下拉.png"/><br>
+							  <div class="drop-nav">
+							 		<span>游戏社区</span><br>
+							 		<span>游戏社区</span><br>
+							 		<span>游戏社区</span><br>
+							 		<span>游戏社区</span>
+							 		
+							 	 </div>
+							
+							</li>							
+						</ul>
+						
+					</div>
+				</div>				
+			</div>			
+		</header>
+		<!--顶部-->		
+		<header class="header-seach">
+			<div class="logo">
+				<img src="img/newLogo.png"/>
+			</div>
+			<div class="seach-box">
+				<div class="seach">
+					<img src="img/search.png"/>
+					<input class="sea-txt" type="text" value=""placeholder="请输入关键字" style="padding-left: 30px;"/>
+					<span>搜索</span>
+					<ul>
+						<li>手机</li>
+						<li>小米</li>
+						<li>iPhone</li>
+						<li>三星</li>
+						<li>华为</li>
+						<li>冰箱</li>
+					</ul>					
+				</div>				
+			</div>
+			<div class="my-car">
+				<span class="car-txt"><img src="img/购物车空.png"/>&nbsp;我的购物车 </span>
+				<span class="num-zero">0</span>				
+			</div>			
+		</header>
+		<!--logo 搜索框  购物车-->		
+		<nav class="nav">
+			<span class="all-kind"> <img src="img/菜单.png"/>全部商品分类</span>
+			<ul class ="nav-menu">					
+					<div class = "slider"></div>
+					<li><a href="###">首页</a></li>
+					<li><a href="###">手机城</a></li>
+					<li><a href="###">珠宝</a></li>
+					<li><a href="###">家电城</a></li>
+					<li><a href="###">促销商品</a></li>
+					<li><a href="###">预售</a></li>
+					<li><a href="###">数码城</a></li>
+					<li><a href="###">团购</a></li>
+					<li><a href="###">积分商城</a></li>					
+			</ul>			
+		</nav>					
+		<!--nav 导航 以上一样-->	
+		<section class="txt">
+			<div class="txt-box">
+				<span>当前位置 > 电脑/办公 > 手机/数码 > 手机 > 三星 Galaxy A9高配版 A910</span>
+			</div>
+			
+		</section>
+		<!--一行文字-->
+		<section class="banner-img">
+			<div class="img-box">
+				<div class="bd">
+					<div class="zoom"></div>
+				</div>
+			<!--中图区域-->
+				<div class="hd">
+					<img src="img/goods_thumb_44_400_400.png" alt="小图" style="border: 2px solid red;"/>
+					<img src="img/goods_thumb_41_400_400.jpg" alt="小图"/>
+					<img src="img/goods_thumb_140_400_400.jpg" alt="小图"/>
+					<img src="img/goods_thumb_41_400_400.jpg" alt="小图"/>
+					<img src="img/goods_thumb_140_400_400.jpg" alt="小图"/>
+				</div>								
+			</div>
+			 <!--手机图片展示-左边的-->
+			<div class="img-infor">
+				<div class="iphone-logo">
+					<p>三星 Galaxy A9高配版 (A910) 精灵黑 全网通4G手机 双卡双待</p>
+					<p>4G手机 双卡双待 香槟金 全网通(4G RAM+64G ROM)</p>
+				</div>
+				<hr style="font-size: 6px; opacity: 0.2;">
+				<div class="iphone-price">
+						<ul>
+							<li>价格</li>
+							<li>商城价：</li>
+							<li>¥3499.00</li>
+						</ul><br>
+						<p> <span>市场价：</span>  <s> ¥3599.00</s> </p>
+ 
+				</div>
+				<div class="iphone-color">
+					<span>颜色</span>
+					<ul>
+						<li onclick="goto(0)" class="active"> <span></span></li>
+						<li onclick="goto(1)"><span></span></li>
+						<li onclick="goto(2)"><span></span></li>
+						<li onclick="goto(3)"><span></span></li>			
+					</ul>
+				</div>
+				<div class="iphone-version">
+					<span>版本</span>
+					<ul>
+						<li class="ver"> <span>全网通6G RAM+128G ROM</span></li>
+						<li><span>全网通6G RAM+128G ROM</span></li>
+						<li><span>全网通6G RAM+128G ROM</span></li>		
+					</ul>
+				</div>
+				<hr style="font-size: 6px; opacity: 0.2; margin-top: 20px;">
+				<div class="iphone-count">
+				<span> 数量：</span>	<button id="jian" type="button" >-</button>
+					<input type="text" id="text" value="1"/>				
+					<button id="jia" type="button" >+</button>
+					
+				</div>
+				<div class="iphone-select">
+					<span class="select-send">配送：</span>
+					<select>
+					  <option value ="北京东城区">北京东城区</option>
+					  <option value ="天津天王寺">天津天王寺</option>
+					  <option value="深圳南山区">深圳南山区</option>
+					  <option value="浙江蚌江区">浙江蚌江区</option>
+					</select>
+					
+					<span class="select-express">快递：</span>
+					<select>
+					  <option value ="北京东城区">中通￥30元</option>
+					  <option value ="天津天王寺">中通￥30元</option>
+					  <option value="深圳南山区">中通￥30 元</option>
+					  <option value="浙江蚌江区">中通￥30元</option>
+					</select>
+					
+				</div>
+				<div class="iphone-server">
+					<span>服务 <b>由重庆马泽福电子商务有限公司</b>发货并提供售后服务</span>
+				</div>
+				<div class="iphone-buy">
+					<ul>
+						<li>加入购物车</li>
+						<li>立即购买</li>
+					</ul>
+				</div>
+			</div>
+			<!--手机信息介绍-中间的-->
+			<div class="img-tab">
+				
+				<div class="tab-banner-box" >
+						<span>看了又看</span>
+						<span  class="trade">换一组</span>
+					<div class="tab-img-left">	
+					<ul class="products">
+						<li>
+							<p class="pic"><img src="img/goods_thumb_140_400_400.jpg"> </p>
+							<p class="name">
+								<span>Apple iPhone 6s 16GB</span>
+								<span>玫瑰金色 移动联通电信4G手机</span>
+								<span>¥4858.00</span>
+							</p>
+							
+						</li>
+						<li>
+							<p class="pic"><img src="img/goods_thumb_140_400_400.jpg"></p>
+							<p class="name">
+								<span>Apple iPhone 6s 16GB</span>
+								<span>玫瑰金色 移动联通电信4G手机</span>
+								<span>¥4858.00</span>
+							</p>
+						</li>
+						
+					</ul>		
+					<ul class="products">
+						<li>
+							<p class="pic"><img src="img/goods_thumb_41_400_400.jpg" ></p>
+							<p class="name">
+								<span>Apple iPhone 6s 16GB</span>
+								<span>玫瑰金色 移动联通电信4G手机</span>
+								<span>¥4858.00</span>
+							</p>
+						</li>
+						<li>
+							<p class="pic"><img src="img/goods_thumb_41_400_400.jpg"></p>
+							<p class="name">
+								<span>Apple iPhone 6s 16GB</span>
+								<span>玫瑰金色 移动联通电信4G手机</span>
+								<span>¥4858.00</span>
+							</p>
+						</li>
+						
+					</ul>
+					<ul class="products">
+						<li>
+							<p class="pic"><img src="img/goods_thumb_140_400_400.jpg"> </p>
+							<p class="name">
+								<span>Apple iPhone 6s 16GB</span>
+								<span>玫瑰金色 移动联通电信4G手机</span>
+								<span>¥4858.00</span>
+							</p>
+							
+						</li>
+						<li>
+							<p class="pic"><img src="img/goods_thumb_140_400_400.jpg"></p>
+							<p class="name">
+								<span>Apple iPhone 6s 16GB</span>
+								<span>玫瑰金色 移动联通电信4G手机</span>
+								<span>¥4858.00</span>
+							</p>
+						</li>
+						
+					</ul>		
+					<ul class="products">
+						<li>
+							<p class="pic"><img src="img/goods_thumb_41_400_400.jpg" ></p>
+							<p class="name">
+								<span>Apple iPhone 6s 16GB</span>
+								<span>玫瑰金色 移动联通电信4G手机</span>
+								<span>¥4858.00</span>
+							</p>
+						</li>
+						<li>
+							<p class="pic"><img src="img/goods_thumb_41_400_400.jpg"></p>
+							<p class="name">
+								<span>Apple iPhone 6s 16GB</span>
+								<span>玫瑰金色 移动联通电信4G手机</span>
+								<span>¥4858.00</span>
+							</p>
+						</li>
+						
+					</ul>
+				</div>	
+				</div>
+				
+				
+				
+			</div>
+			<!--手机tab图片的切换-右边的-->
+		</section>
+		<!--手机图片详情-->
+		<section class="iphone-details">
+			<div class="iphone-recommend">				
+						<span class="recom-txt">热买推荐</span>						
+					<div class="tab-img-left">	
+						<ul class="products">
+							<li>
+								<p class="pic"><img src="img/goods_thumb_140_400_400.jpg"> </p>
+								<p class="name">
+									<span>Apple iPhone 6s 16GB</span>
+									<span>玫瑰金色 移动联通电信4G手机</span>
+									<span>¥4858.00</span>
+								</p>
+								
+							</li>
+							<li>
+								<p class="pic"><img src="img/goods_thumb_140_400_400.jpg"></p>
+								<p class="name">
+									<span>Apple iPhone 6s 16GB</span>
+									<span>玫瑰金色 移动联通电信4G手机</span>
+									<span>¥4858.00</span>
+								</p>
+							</li>
+							<li>
+								<p class="pic"><img src="img/goods_thumb_140_400_400.jpg"> </p>
+								<p class="name">
+									<span>Apple iPhone 6s 16GB</span>
+									<span>玫瑰金色 移动联通电信4G手机</span>
+									<span>¥4858.00</span>
+								</p>
+								
+							</li>
+							<li>
+								<p class="pic"><img src="img/goods_thumb_140_400_400.jpg"></p>
+								<p class="name">
+									<span>Apple iPhone 6s 16GB</span>
+									<span>玫瑰金色 移动联通电信4G手机</span>
+									<span>¥4858.00</span>
+								</p>
+							</li>
+							
+							<li>
+								<p class="pic"><img src="img/goods_thumb_140_400_400.jpg"></p>
+								<p class="name">
+									<span>Apple iPhone 6s 16GB</span>
+									<span>玫瑰金色 移动联通电信4G手机</span>
+									<span>¥4858.00</span>
+								</p>
+							</li>
+						</ul>			
+					</div>	
+								
+			</div>
+			<div class="details">
+				<div class="tab">
+			        <div class="tab-menu">
+				        <ul>
+				          <li>商品介绍</li>
+				          <li>规格参数</li>
+				          <li>商品评价</li>
+				          <li>售后保障</li>
+				        </ul>
+				    </div>
+				    <div class="tab-box">
+				        <div class="tab-one">
+				        	<p>商品名称：三星 Galaxy A9高配版 (A9100)精灵黑 全网通4G手机 双卡双待</p>
+				        	<ul>
+				        		<li>货号：TP0000141</li>
+				        		<li>网路制式：移动4G(TD-LTE)联通4G电信4G</li>
+				        		<li>支持频率/网路频率：全网通</li>
+				        		<li>尺寸体积：6.0英寸</li>
+				        		<li>外观样式/手机类型：直板</li>
+				        		<li>内存容量：8G</li>
+				        		<li>无线位置：内置</li>
+				        		<li>彩信/菜e：支持</li>
+				        		<li>价格等级：高价机</li>
+				        	</ul>
+				        	<span class="tab-one-img">
+				        		<span class="iphone-model">SAMSUNG Galaxy A9</span>
+				        		<img src="img/57198a241613b.png"/>
+				        	</span>
+				        	<span class="tab-two-img">
+				        		<span class="tab-img"> <img src="img/57198a2444da2.png"/></span>
+				        		<span class="tab-img">  
+				        			<span class="tab-txt1">双面2.5D玻璃</span>
+				        			<span class="tab-txt2">盖乐世A9高配版采用双面2.5D玻璃与金属边框，绽放刚柔并济之美。正背两面 均为坚固耐摔的第四代康宁大猩猩玻璃材质，练就一身硬气。</span>
+				        		</span>
+				        		
+				        	</span>
+				        	<span class="tab-three-img">
+				        		<span class="tab-img">  
+				        			<span class="tab-txt1">6英寸全高清屏</span>
+				        			<span class="tab-txt2">盖乐世A9高配版采用双面2.5D玻璃与金属边框，绽放刚柔并济之美。正背两面 均为坚固耐摔的第四代康宁大猩猩玻璃材质，练就一身硬气。</span>
+				        		</span>				        						        		
+				        		<span class="tab-img"> <img src="img/57198a24550dd.png"/></span>
+				        						        		
+				        	</span>
+				        	<span class="tab-two-img">
+				        		<span class="tab-img"> <img src="img/57198a246c1c4.png" style="margin-left: -0px;"/></span>
+				        		<span class="tab-img" style="margin-left: 150px;">  
+				        			<span class="tab-txt1" >高配置相机</span>
+				        			<span class="tab-txt2">前置800万后置1600万像素摄像头搭配光学防抖技术，前后皆采用高配置，确保 清晰细致的高品质成片，前后亦同时配以F1.9大光圈，通光量大幅提升，拍出闪亮动人！</span>
+				        		</span>
+				        		
+				        	</span>
+				        	<span style="background: darkgray; padding: 10px 867px 10px 12px;">售后保障</span>
+				        	<span class="tab-server" >
+				        		<img src="img/phone23.png" style="margin-top: 10px;"/>
+				        	</span>
+				        	<span style="background: darkgray; padding: 10px 867px 10px 12px;">退款说明</span>
+				        	<span class="tab-server">
+				        		<img src="img/detail.png" style="width: 930px; margin-top: 12px;"/>
+				        	</span>	
+				        	<span style="background: darkgray; padding: 10px 867px 10px 12px;">商品评价</span>
+				        	<span class="tab-evaluate">
+				        	<ul>
+				        		<li>
+				        			<span>好评度</span><br>
+				        			<span style="font-size: 50px; color: red;">99%</span>
+				        		</li>
+				        		<li>(好评(80%) <span style="border:1px grey solid ;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br><br>
+				        			(中评10%) <span style="border:1px grey solid ;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br><br>
+				        			(差评(10%) <span style="border:1px grey solid ;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+				        		</li>
+				        		<li><span>买家评论事项：购买后有什么问题，满意，或者不满意，都可以在这里评论出来，这里评论全部源于真实的评论您可以对已购买的商品进行评价</span></li>
+				        		<li><span>您可以对已购买的商品进行评价</span><br><br>
+				        			<span class="out">发表评论</span>
+				        		</li>
+				        	</ul>
+				        		
+				        	</span>
+				        	<span style="background: darkgray;padding: 10px 620px 10px 12px;">
+				        		<span style="margin-left: 20px; color: #FC3E3E; ">全部评论(233)</span>
+					        		<span>好评(222)</span>
+					        		<span>中评(1)</span>
+					        		<span>差评(0)</span>
+					        	</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>
+				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>
+				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>
+				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>
+				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>
+				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>
+				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>
+				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>
+				       			
+				       		</span>				       						        
+				        </div>
+				        <!--第一个：商品介绍-->
+				        <div class="tab-one">
+				        	<p>商品名称：三星 Galaxy A9高配版 (A9100)精灵黑 全网通4G手机 双卡双待</p>
+				        	<ul>
+				        		<li>货号：TP0000141</li>
+				        		<li>网路制式：移动4G(TD-LTE)联通4G电信4G</li>
+				        		<li>支持频率/网路频率：全网通</li>
+				        		<li>尺寸体积：6.0英寸</li>
+				        		<li>外观样式/手机类型：直板</li>
+				        		<li>内存容量：8G</li>
+				        		<li>无线位置：内置</li>
+				        		<li>彩信/菜e：支持</li>
+				        		<li>价格等级：高价机</li>
+				        	</ul>
+				        	
+				        	<span class="tab-evaluate">
+				        		<span style="background: darkgray; padding: 10px 867px 10px 12px;">商品评价</span>
+				        	<ul>
+				        		<li>
+				        			<span>好评度</span><br>
+				        			<span style="font-size: 50px; color: red;">99%</span>
+				        		</li>
+				        		<li>(好评(80%) <span style="border:1px grey solid ;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br><br>
+				        			(中评10%) <span style="border:1px grey solid ;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br><br>
+				        			(差评(10%) <span style="border:1px grey solid ;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+				        		</li>
+				        		<li><span>买家评论事项：购买后有什么问题，满意，或者不满意，都可以在这里评论出来，这里评论全部源于真实的评论您可以对已购买的商品进行评价</span></li>
+				        		<li><span>您可以对已购买的商品进行评价</span><br><br>
+				        			<span class="out">发表评论</span>
+				        		</li>
+				        	</ul>
+				        		
+				        	</span>
+				        	<span style="background: darkgray;padding: 10px 620px 10px 12px;">
+				        		<span style="margin-left: 20px; color: #FC3E3E; ">全部评论(233)</span>
+					        		<span>好评(222)</span>
+					        		<span>中评(1)</span>
+					        		<span>差评(0)</span>
+					        	</span>
+					        <span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>	
+				        	<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>	
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>	
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>	
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>	
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>	
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>	
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>	
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>	
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>	
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>	
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>	
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>	
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>	
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>	
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>	
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>	
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>	
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>	
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>	
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>	
+				       			
+				        </div>
+				        	<!--第二个规格参数-->			        
+				        <div class="tab-one">
+				        	<span class="tab-evaluate">
+				        		<span style="background: darkgray; padding: 10px 867px 10px 12px;">商品评价</span>
+				        	<ul>
+				        		<li>
+				        			<span>好评度</span><br>
+				        			<span style="font-size: 50px; color: red;">99%</span>
+				        		</li>
+				        		<li>(好评(80%) <span style="border:1px grey solid ;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br><br>
+				        			(中评10%) <span style="border:1px grey solid ;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br><br>
+				        			(差评(10%) <span style="border:1px grey solid ;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+				        		</li>
+				        		<li><span>买家评论事项：购买后有什么问题，满意，或者不满意，都可以在这里评论出来，这里评论全部源于真实的评论您可以对已购买的商品进行评价</span></li>
+				        		<li><span>您可以对已购买的商品进行评价</span><br><br>
+				        			<span class="out">发表评论</span>
+				        		</li>
+				        	</ul>
+				        		
+				        	</span>
+				        	<span style="background: darkgray;padding: 10px 620px 10px 12px;">
+				        		<span style="margin-left: 20px; color: #FC3E3E; ">全部评论(233)</span>
+					        		<span>好评(222)</span>
+					        		<span>中评(1)</span>
+					        		<span>差评(0)</span>
+					        	</span>
+					        <span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		
+				       		
+				        </div>
+				       <!--第三个商品评价-->
+				       <div class="tab-one">
+				        	<span style="background: darkgray; padding: 10px 867px 10px 12px;">售后保障</span>
+				        	<span class="tab-server">
+				        		<img src="img/phone23.png"/>
+				        	</span>
+				        	<span style="background: darkgray; padding: 10px 867px 10px 12px;">退款说明</span>
+				        	<span class="tab-server">
+				        		<img src="img/detail.png" style="width: 930px; margin-top: 12px;"/>
+				        	</span>	
+				        	<span style="background: darkgray; padding: 10px 867px 10px 12px;">商品评价</span>
+				        	<span class="tab-evaluate">
+				        	<ul>
+				        		<li>
+				        			<span>好评度</span><br>
+				        			<span style="font-size: 50px; color: red;">99%</span>
+				        		</li>
+				        		<li>(好评(80%) <span style="border:1px grey solid ;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br><br>
+				        			(中评10%) <span style="border:1px grey solid ;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br><br>
+				        			(差评(10%) <span style="border:1px grey solid ;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+				        		</li>
+				        		<li><span>买家评论事项：购买后有什么问题，满意，或者不满意，都可以在这里评论出来，这里评论全部源于真实的评论您可以对已购买的商品进行评价</span></li>
+				        		<li><span>您可以对已购买的商品进行评价</span><br><br>
+				        			<span class="out">发表评论</span>
+				        		</li>
+				        	</ul>
+				        		
+				        	</span>
+				        	<span style="background: darkgray;padding: 10px 620px 10px 12px;">
+				        		<span style="margin-left: 20px; color: #FC3E3E; ">全部评论(233)</span>
+					        		<span>好评(222)</span>
+					        		<span>中评(1)</span>
+					        		<span>差评(0)</span>
+					        	</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>
+				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>
+				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>
+				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>
+				       		<span class="tab-user">
+				       			<ul>
+				       				<li><img src="img/ball.png"/> 匿名用户</li>
+				       				<li>
+				       					<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/>
+					       				<img src="img/s34.png"/><br>
+					       				<span style="font-size: 12px;">本来考虑了三星s8，因为s8真的好看，双卡双待，很多安卓的功能都不错，就是怕用的久了，卡。要是苹果有双卡就行了，那就美滋滋了， 上手体验，可以玩游戏，不怎么发热的，续航真的稳，充电慢是比安卓慢，勇敢的人可以直接换充电头，买也行，用别的手机的快充头也行， 或者直接插在插板的US2口上也行，我感觉这不是问题，信号和无线网依旧不如安卓，老问题，习惯就好， 缝隙问题是有的，7p都看不出来有，所以不敢放水里试。想起来说的就那么多了，才起来，脑子还没有醒，就这样吧！</span>
+					       				<br>
+					       				<span class="img-iph"><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+					       				<img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/><img src="img/goods_thumb_140_400_400拷贝2.png"/>
+				       				</span><br>
+					       				<span class="zanlun">深空灰色 64GB 2017-11-10 13:58  <img src="img/zan.png" class="zan"/>( 0 ) <img src="img/pinlun.png"/> ( 0 )</span>
+				       				</li>
+				       			</ul>				       			
+				       		</span>				       		
+				        </div>
+				   		<!--第四个售后保障-->
+				    </div>										
+				</div>			
+			</div>
+			<!--手机的四个导航-->
+		</section>	
+		<section class="custom-infor">
+			<div class="custom-good">
+				<ul>
+					<li><img src="img/七天无理由.png"/><span>7天无理由退货</span></li>
+					<li><img src="img/15天.png"/><span>15天免费换货</span></li>
+					<li><img src="img/正品.png"/><span>正品行货 品质保证</span></li>
+					<li><img src="img/售后.png"/><span>专业售后服务</span></li>
+				</ul>
+			</div>
+			<div class="custom-tech">
+				<ul>
+					<li>
+						<h4>新手上路</h4>
+						<span>新用户注册</span>
+						<span>积分规则</span>
+						<span>忘记密码</span>
+						<span>如何搜索</span>
+						<span>积分兑换说明</span>
+					</li>
+					<li>
+						<h4>购物指南</h4>
+						<span>会员修改密码</span>
+						<span>修改个人资料</span>
+						<span>会员等级</span>
+						<span>常见问题</span>
+						<span>修改收货地址</span>
+					</li>
+					<li>
+						<h4>售后服务</h4>
+						<span>售后政策</span>
+						<span>退换货流程</span>
+						<span>退款说明</span>
+						<span>取消订单</span>
+					</li>
+					<li>
+						<h4>支付方式</h4>
+						<span>银联支付</span>
+						<span>支付宝支付</span>
+						<span>微信支付</span>
+						<span>余额支付</span>
+						<span>分期付款</span>
+					</li>
+					<li>
+						<h4>配送方式</h4>
+						<span>免运费政策</span>
+						<span>物流查询</span>
+						<span>上门自提</span>
+						<span>配送服务承诺</span>
+					</li>
+					<li>
+						<h4>联系我们</h4>
+						<span>02368771009</span>
+						<span>周一至周日8:00-18:00</span>
+						<span>仅收市话费</span>					
+					</li>					
+				</ul>
+			</div>
+			<div class="custom-img">
+				<img src="img/qrcode_看图王拷贝.png"/><img src="img/qrcode_看图王拷贝.png"/>
+			</div>
+			<div class="contect">
+				<ul>  
+					<li>友情链接：</li>
+					<li>京东</li>
+					<li>天猫</li>
+				</ul>
+			</div>
+		</section>	
+		<!--店铺诚信  以及  新手注册-->
+		<footer class="footer">
+			<div class="footer-box1">
+				<div class="footer-box-ul">
+					<ul>
+						<li>关于我们</li>
+						<li>联系我们</li>
+						<li>免运费政策</li>
+						<li>物流查询</li>
+						<li>上门自提</li>
+						<li>配送服务承诺</li>
+					</ul>
+				</div>
+				<div class="footer-txt">
+					<span>Copyright ©2015-2017 重庆马泽福电子商务有限公司 版权所有 保留一切权利 备案号：渝ICP备17014927号-2</span>
+				</div>
+			</div>			
+		</footer>
+         <!--倒数第二个footer-->
+		<footer class="bottom-footer">
+			<ul>
+				<li><img src="img/图层10.png"/><span>经营性网站备案信息</span></li>
+				<li><img src="img/图层11.png"/><span>可信网站信用评价</span> </li>
+				<li><img src="img/图层12.png"/><span>网络警察提醒您</span></li>
+				<li><img src="img/图层13.png"/><span>诚信网站</span></li>
+				<li><img src="img/图层14.png"/><span>中国互联网举报中心</span></li>
+			</ul>
+		</footer>
+	</body>
+</html>
